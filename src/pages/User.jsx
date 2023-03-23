@@ -61,6 +61,7 @@ function User() {
                                 </div>
                             )}
                         </h1>
+                        <h3>{login}</h3>
                         <p>{bio}</p>
                         <div className="mt-4 card-actions">
                             <a className="btn btn-outline" href={html_url} target='_blank' rel='noreferrer'>Visit Github Profile</a>
